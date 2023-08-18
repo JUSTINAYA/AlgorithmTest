@@ -21,9 +21,12 @@ public class Test {
 //        ShellSort.shellSort(array);
 //        //归并排序
 //        array = MergeSort.mergeSort(array);
+//
+//        //快速排序
+//        QuickSort.quickSort(array, 0, array.length-1);
 
-        //快速排序
-        QuickSort.quickSort(array, 0, array.length-1);
+        //计数排序
+        CountSort.countSort(array);
 
         System.out.println("\n排序后的数组:");
         for (int num : array) {
