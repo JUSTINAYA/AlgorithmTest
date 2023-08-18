@@ -23,7 +23,7 @@ public class Test {
 //        array = MergeSort.mergeSort(array);
 
         //快速排序
-
+        QuickSort.quickSort(array, 0, array.length-1);
 
         System.out.println("\n排序后的数组:");
         for (int num : array) {
