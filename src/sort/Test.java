@@ -34,8 +34,8 @@ public class Test {
 //        //桶排序
 //        BucketSort.bucketSort(array,5);
 
-        //基数排序
-        RadixSort.radixSort(array);
+//        //基数排序
+//        RadixSort.radixSort(array);
 
         System.out.println("\n排序后的数组:");
         for (int num : array) {
