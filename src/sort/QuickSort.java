@@ -13,17 +13,17 @@ public class QuickSort {
 
     private static int partition(int[] arr, int lo, int hi) {
         //把最左边的元素当作基准值
-        int key = arr[lo];
+        int pivot = arr[lo];
         int left = lo; //
         int right = hi + 1;
         while (true) {
             //左指针遇到>=key的值，才停下
-            while (arr[++left] < key) {
+            while (arr[++left] < pivot) {
                 if (left == hi) break;
             }
 
             //右指针遇到<=key的值，才停下
-            while (key < arr[--right]) {
+            while (pivot < arr[--right]) {
                 if (right == lo) break;
             }
 
